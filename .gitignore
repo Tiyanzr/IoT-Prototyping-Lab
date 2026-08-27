@@ -1,0 +1,22 @@
+# PlatformIO Environment and Build Directories
+.pio/
+
+# VS Code Workspace Settings and Caches
+.vscode/
+
+# Compiled Object and Executable Files
+*.o
+*.obj
+*.exe
+*.bin
+*.elf
+
+# OS Generated Files (Windows/Mac)
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# CRITICAL: Local Credentials
+# This blocks the secret file in ANY folder
+# ==========================================
+**/include/INPUT_YOUR_WIFI_SSID.h
