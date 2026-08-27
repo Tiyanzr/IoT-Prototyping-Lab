@@ -22,27 +22,24 @@ Here is the navigation guide:
 
 | Prefix | Category | Description |
 | :--- | :--- | :--- |
-| **`EXP`** | Experiment | Single feature testing, new sensor trials, or trial and error projects (e.g., `EXP-MQTT-Relay`). |
+| **`EXP`** | Experiment | Single feature testing, new sensor trials, or trial and error projects (e.g., `EXP-NodeRed-MQTT-Relay`). |
 | **`PRJ`** | Project | Complete, functional, and larger-scale main projects. |
-| **`EDU`** | Education | Practical modules, teaching materials, or basic IoT curricula designed for students and beginners. |
 | **`ASG`** | Assignment | Projects related to specific academic tasks or prototype development. |
 | **`CRS`** | Course | Notes, scripts, or source code tied to specific university courses and learning materials. |
-| **`EVT`** | Event | Systems, databases, or administrative tools built specifically for competitions and events. |
 
-> **Important Note:** Each project folder usually contains a standalone PlatformIO environment. Please do not open this parent repository directly as a PlatformIO project. Open the specific sub-folder (e.g., `EXP-MQTT-Relay/Wemos-D1`) to avoid library conflicts.
+> **Important Note:** Each project folder usually contains a standalone PlatformIO environment. Please do not open this parent repository directly as a PlatformIO project. Open the specific sub-folder (e.g., `EXP-NodeRed-MQTT-Relay/Wemos-D1`) to avoid library conflicts.
 
 ---
 
 ## Configuration & Credentials
-Security is a priority. This repository is structured to keep your network credentials (WiFi SSID, passwords, MQTT IP) secure and completely out of version control.
+Security is handled seamlessly. Network credentials are isolated so that your private information stays out of version control while remaining plug-and-play for anyone who clones the repository.
 
-Before compiling any network-dependent project, please follow these steps:
-1. Navigate to the `include/` folder of the specific project you are working on.
-2. Locate the file named `config_template.h`.
-3. Duplicate this file and rename the copy to `config.h`.
-4. Open your new `config.h` file and input your actual network credentials.
+Before compiling any network-dependent project:
+1. Open the `src/main.cpp` file of the project.
+2. Locate the configuration section at the top.
+3. Replace the placeholder text (`INPUT_YOUR_WIFI_SSID`, `INPUT_YOUR_WIFI_PASSWORD`, and `INPUT_YOUR_MQTT_IP`) directly with your actual network details.
 
-*Note: The `config.h` file is already listed in the `.gitignore` file, ensuring your private data will never be accidentally pushed to GitHub.*
+*Note for local development: If you manage a private credential header locally, it is completely ignored by `.gitignore` to ensure your data is never pushed to GitHub.*
 
 ---
 
@@ -51,7 +48,7 @@ If you want to try out one of the projects here:
 1. Clone this repository: `git clone https://github.com/Tiyanzr/IoT-Prototyping-Lab.git`
 2. Open the desired project folder using **VS Code**.
 3. Ensure the **PlatformIO** extension is installed.
-4. Set up your network configuration following the **Configuration & Credentials** guide above.
+4. Set up your network configuration directly in `src/main.cpp` following the guide above.
 5. Connect your microcontroller, then click **Upload** via PlatformIO.
 
 ---
