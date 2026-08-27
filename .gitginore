@@ -1,2 +1,2 @@
-# Mengabaikan kredensial lokal
-config.h
+# Mengabaikan file kredensial lokal di semua sub-folder proyek Wemos
+**/include/INPUT_YOUR_WIFI_SSID.h
