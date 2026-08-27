@@ -33,13 +33,26 @@ Here is the navigation guide:
 
 ---
 
+## Configuration & Credentials
+Security is a priority. This repository is structured to keep your network credentials (WiFi SSID, passwords, MQTT IP) secure and completely out of version control.
+
+Before compiling any network-dependent project, please follow these steps:
+1. Navigate to the `include/` folder of the specific project you are working on.
+2. Locate the file named `config_template.h`.
+3. Duplicate this file and rename the copy to `config.h`.
+4. Open your new `config.h` file and input your actual network credentials.
+
+*Note: The `config.h` file is already listed in the `.gitignore` file, ensuring your private data will never be accidentally pushed to GitHub.*
+
+---
+
 ## How to Use
 If you want to try out one of the projects here:
 1. Clone this repository: `git clone https://github.com/Tiyanzr/IoT-Prototyping-Lab.git`
 2. Open the desired project folder using **VS Code**.
 3. Ensure the **PlatformIO** extension is installed.
-4. Adjust settings such as `SSID`, `Password`, or `Broker IP` in the `src/main.cpp` file if necessary.
-5. Connect your microcontroller, then click **Upload**.
+4. Set up your network configuration following the **Configuration & Credentials** guide above.
+5. Connect your microcontroller, then click **Upload** via PlatformIO.
 
 ---
 
