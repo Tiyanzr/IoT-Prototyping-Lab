@@ -27,11 +27,3 @@ If you have cloned this repository, you do not need to create any extra files.
 3. Replace the placeholder strings (`"INPUT_YOUR_WIFI_SSID"`, `"INPUT_YOUR_WIFI_PASSWORD"`, `"INPUT_YOUR_MQTT_IP"`) with your actual network credentials.
 4. Compile and upload using PlatformIO.
 
-### For Local Development (Secure Mode)
-If you want to keep your credentials saved locally without risking them being pushed to GitHub:
-1. Create a file named `INPUT_YOUR_WIFI_SSID.h` inside the `include/` folder.
-2. Add your credentials in this format:
-   ```cpp
-   const char* ssid = "Your_WiFi_Name";
-   const char* password = "Your_WiFi_Password";
-   const char* mqtt_server = "192.168.x.x";
