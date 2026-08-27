@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/include",
-                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/src",
+                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/include",
+                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/src",
                 "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
-                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/.pio/libdeps/d1_mini/PubSubClient/src",
+                "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/.pio/libdeps/d1_mini/PubSubClient/src",
                 "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                 "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                 "C:/Users/Tiyan/.platformio/packages/toolchain-xtensa/include",
@@ -58,10 +58,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/include",
-                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/src",
+                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/include",
+                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/src",
                     "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src",
-                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/Wemos-D1/.pio/libdeps/d1_mini/PubSubClient/src",
+                    "D:/Projects/05_Automation/IoT-Prototyping-Lab/EXP-NodeRed-MQTT-Relay/d1_mini/.pio/libdeps/d1_mini/PubSubClient/src",
                     "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                     "C:/Users/Tiyan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                     "C:/Users/Tiyan/.platformio/packages/toolchain-xtensa/include",
