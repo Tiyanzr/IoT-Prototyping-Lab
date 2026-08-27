@@ -1,2 +1,1 @@
-# Ignore any header file inside any include folder across all projects
-**/include/*.h
+**/include/INPUT_YOUR_WIFI_SSID.h
