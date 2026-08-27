@@ -12,8 +12,7 @@ While the ultimate goal is to control this system via a Node-RED dashboard, the 
 4. **Actuation:** Upon receiving a string payload of `"1"`, it turns the LED on. Upon receiving `"0"`, it turns the LED off.
    * *Note: The Wemos D1 Mini uses inverted logic for its built-in LED. The code handles this by setting the pin `LOW` to turn it on and `HIGH` to turn it off.*
 
-## Hardware & Software Requirements
-* **Microcontroller:** Wemos D1 Mini (ESP8266) or ESP32 DevKit.
+## Projects Requirements
 * **Framework:** Arduino framework via PlatformIO.
 * **Dependencies:** `PubSubClient` (for MQTT communication).
 * **Infrastructure:** A running MQTT Broker (e.g., Mosquitto) on the same local network.
