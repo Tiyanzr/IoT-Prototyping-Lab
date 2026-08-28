@@ -2,7 +2,7 @@
 
 Hello. 
 
-This repository serves as a monorepo workspace where I collect various experiments, prototypes, and learning modules related to the Internet of Things (IoT) and embedded systems. From simple remote LED control to more complex sensor network architectures, everything here is built with a focus on efficiency, clear documentation, and reproducibility.
+This repository serves as a monorepo workspace where I collect various experiments, prototypes, and learning modules related to the Internet of Things (IoT) and embedded systems.
 
 ---
 
